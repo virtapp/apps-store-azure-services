@@ -26,9 +26,9 @@ The [`go-app`](./go-service) is a Go mux app that will retrieve and store the st
 
 ## Deploy via GitHub Actions 
 
-> **IMPORTANT NOTE**: This tutorial has been updated (8/2022) to use GITHUB.TOKEN instead of a GH PAT (Personal Access Token). If you have run this tutorial already, and have images that were pushed using a PAT, you will need to delete these from GHCR for the workflow to successfully write the updated images.
 
-The entire solution is configured with [GitHub Actions](https://github.com/features/actions) and [Bicep](https://docs.microsoft.com/azure/azure-resource-manager/bicep/overview) for CI/CD
+
+Configure with [GitHub Actions](https://github.com/features/actions) and [Bicep](https://docs.microsoft.com/azure/azure-resource-manager/bicep/overview) for CI/CD
 1. Fork the sample repo
 2. Create the following required [encrypted secrets](https://docs.github.com/en/actions/security-guides/encrypted-secrets#creating-encrypted-secrets-for-a-repository) for the sample
 
