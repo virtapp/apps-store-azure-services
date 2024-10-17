@@ -4,13 +4,13 @@
 
 Azure Container Apps is a managed serverless container offering for building and deploying modern apps at scale. It enables developers to deploy containerized apps without managing container orchestration. This sample makes use of the Distributed Application Runtime (Dapr), which is integrated deeply into the container apps platform. 
 
-Dapr is a CNCF project that helps developers overcome the inherent challenges presented by distributed applications, such as state management and service invocation. Container Apps also provides a fully-managed integration with the Kubernetes Event Driven Autoscaler (KEDA). KEDA allows your containers to autoscale based on incoming events from external services such Azure Service Bus or Redis.
+Dapr is a serverless computing that helps developers overcome the inherent challenges presented by distributed applications, such as state management and service invocation. Container application also provides a fully-managed integration with the Kubernetes Event Driven Autoscaler (KEDA). KEDA allows your containers to autoscale based on incoming events from external services such Azure Service Bus or Redis.
 
 ## Overview
 
 ![image of architecture](./assets/arch.png)
 
-There are three main microservices in the solution.
+There are three main microservices
 
 #### Store API (`node-app`)
 
