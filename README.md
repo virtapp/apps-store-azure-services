@@ -1,12 +1,12 @@
-# Container Apps Store Microservice Sample
+# Azure Cloud | Apps Store Microservices
 
-This repository was created to help users deploy a microservice-based sample application to Azure Container Apps.
+
 
 Azure Container Apps is a managed serverless container offering for building and deploying modern apps at scale. It enables developers to deploy containerized apps without managing container orchestration. This sample makes use of the Distributed Application Runtime (Dapr), which is integrated deeply into the container apps platform. 
 
 Dapr is a CNCF project that helps developers overcome the inherent challenges presented by distributed applications, such as state management and service invocation. Container Apps also provides a fully-managed integration with the Kubernetes Event Driven Autoscaler (KEDA). KEDA allows your containers to autoscale based on incoming events from external services such Azure Service Bus or Redis.
 
-## Solution Overview
+## Overview
 
 ![image of architecture](./assets/arch.png)
 
